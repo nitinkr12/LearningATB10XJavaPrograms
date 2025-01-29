@@ -6,7 +6,7 @@ public class Labex25_vowelCost {
     public static void main(String[] args) {
         String c;
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter your character");
+        System.out.println("Enter your STRING");
         c=sc.next();
 
         for(int i=0;i<c.length();i++)
