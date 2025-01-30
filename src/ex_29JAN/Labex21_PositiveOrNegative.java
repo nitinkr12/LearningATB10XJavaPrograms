@@ -27,13 +27,6 @@ public class Labex21_PositiveOrNegative {
             System.out.println("its not a number");
         }
 
-            
-
-
-            {
-
-                System.out.println(" its not a no ");
-            }
 
         }
     }
