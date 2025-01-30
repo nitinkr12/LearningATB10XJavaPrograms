@@ -13,6 +13,7 @@ public class Labex21_PositiveOrNegative {
            System.out.println("Enter num");
            Scanner sc = new Scanner(System.in);
            num = sc.nextDouble();
+           sc.close();
 
            if (num > 0) {
                System.out.println("its a positive no");
@@ -30,4 +31,5 @@ public class Labex21_PositiveOrNegative {
 
 
         }
+
     }

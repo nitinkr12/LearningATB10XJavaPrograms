@@ -10,6 +10,7 @@ public class Labex22_EvenOrOdd {
     Scanner sc=new Scanner(System.in);
         System.out.println("Enter your number");
     num= sc.nextInt();
+
     if(num%2==0) {
         System.out.println(num + " is even number");
     }else
