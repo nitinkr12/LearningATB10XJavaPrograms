@@ -1,5 +1,6 @@
 package ex_29JAN;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Labex24_vote {
@@ -7,6 +8,7 @@ public class Labex24_vote {
 
     {
     int age;
+    try{
     Scanner sc=new Scanner(System.in);
         System.out.println("Enter your age");
     age= sc.nextInt();
@@ -17,6 +19,7 @@ public class Labex24_vote {
     else
     {
         System.out.println("you cant vote");
-    }
-
-}}
+    }} catch(InputMismatchException e)
+        {
+            System.out.println("Please enter integer no");
+}}}
