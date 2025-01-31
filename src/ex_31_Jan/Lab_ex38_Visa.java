@@ -2,7 +2,7 @@ package ex_31_Jan;
 
 import java.util.Scanner;
 
-public class Lab_ex36_Visa {
+public class Lab_ex38_Visa {
     public static void main(String[] args) {
 
         int Age;
